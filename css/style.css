@@ -44,15 +44,6 @@ body {
 }
 
 
-/* COLONNE */
-
-.column {
-float: left;
-/* padding: 0 1,5rem;
-margin: 0 1,5rem; */
-}
-
-
 /* Header */
 h1 {
     color: #e53170;
@@ -74,15 +65,7 @@ main {
 }
 
 /* Card */
-.card {
-
-}
-
-.card-item {
-
-}
-
-.cart-item a {
+.card-item a {
     color: #00abe9;
 }
 
@@ -103,22 +86,3 @@ img {
     color: #fff;
     line-height: 1.4rem;
 }
-
-
-
-
-
-/* TXT COPIA INCOLLA
-
-
-  
-
-  
-
-MARTA IPSUM Seo specialist marta.ipsum@team.com
-
-ROBERTO LOREM Project Manager roberto.lorem@team.com
-
-DANIELA AMET analysy daniela.amet@team.com
-
- */

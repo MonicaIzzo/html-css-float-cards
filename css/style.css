@@ -1,3 +1,14 @@
+/* COLOR PALETTE
+fuxia: #e53170
+*/
+
+/* CUSTOM PROPERTIES */
+.root {
+--fuxia: #e53170
+}
+
+
+
 /* Reset CSS */
 * {
 margin: 0;
@@ -7,11 +18,49 @@ box-sizing: border-box;
 
 
 /* Generics */
-
+body {
+    font-family: 'Fredoka', sans-serif;
+}
 
 
 
 /* Utilties */
+.cointiner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* COLONNE */
+
+.column {
+width: calc(100% / 3);
+float: left;
+/* padding: 0 1,5rem;
+margin: 0 1,5rem; */
+}
 
 
 /* Header */
+<h1> {
+    color: ;
+}
+
+
+
+/* TXT COPIA INCOLLA
+Meet our team
+
+MARCO BIANCHI Designer marcobianchi@team.com
+
+LAURA ROSSI Front-end developer laura.rossi@team.com
+
+GIORGIO VERDI Back-end developer giorgio.verdi@team.com
+
+MARTA IPSUM Seo specialist marta.ipsum@team.com
+
+ROBERTO LOREM Project Manager roberto.lorem@team.com
+
+DANIELA AMET analysy daniela.amet@team.com
+
+ */

@@ -26,16 +26,27 @@ body {
 
 
 /* Utilties */
+.debag
+{
+
+}
 .cointainer {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+    width: calc(100% / 3 - 1rem);
+    margin: 0.5rem;
+    height: 100px;
+    background-color: #000;
 }
 
 
 /* COLONNE */
 
 .column {
-width: calc(100% / 3);
 float: left;
 /* padding: 0 1,5rem;
 margin: 0 1,5rem; */
@@ -64,30 +75,33 @@ main {
 
 /* Card */
 .card {
+
 }
 
-.cart-item {
-background-color: #000;
+.card-item {
+
 }
 
 .cart-item a {
     color: #00abe9;
 }
 
-.cart-item img {
+img {
     height: 100px;
+    float: left;
+    margin: 0 1rem 0 0;
 }
 
-.cart-item h2 {
+.card-item h2 {
     color: #fff;
-    text-align: left;
-    margin: 1rem 0;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-top: 1rem;
 }
 
-.cart-item p {
+.card-item p {
     color: #fff;
-    text-align: left;
-    margin: 1rem 0;
+    line-height: 1.4rem;
 }
 
 

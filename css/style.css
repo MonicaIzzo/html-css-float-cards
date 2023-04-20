@@ -1,11 +1,8 @@
-/* COLOR PALETTE
-fuxia: #e53170
-azzurro: #00abe9
-*/
 
 /* CUSTOM PROPERTIES */
 .root {
---fuxia: #e53170
+--title-color: #e53170;
+--link-color: #00abe9;
 }
 
 
@@ -40,10 +37,18 @@ body {
     background-color: #000;
 }
 
+.cleanfix::after {
+    content: '';
+    clear: both;
+    display: table;
+
+}
+
+
 
 /* Header */
 h1 {
-    color: #e53170;
+    color: var(--title-color);
     margin: 3rem 0;
     text-align: center;
     font-size: 3rem;
@@ -63,7 +68,7 @@ main {
 
 /* Card */
 .card-item a {
-    color: #00abe9;
+    color: var(--link-color)
 }
 
 img {
